@@ -16,7 +16,7 @@ const styles = {
 
 class App extends Component {
   /**
-   * Bind this to no react api function
+   * Bind this to non react api function
    * @param  {obj} props
    */
   constructor (props) {
