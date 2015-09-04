@@ -6,7 +6,7 @@ import {
 } from '../actions';
 
 // Components
-import None from '../components/none';
+// import Something from '../components/something';
 
 const styles = {
   wrapper: {

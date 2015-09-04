@@ -3,6 +3,7 @@ import { Provider } from 'react-redux';
 import ConfigureStore from '../store/configure_store';
 import App from './app';
 // import { DevTools, DebugPanel, LogMonitor } from 'redux-devtools/lib/react';
+// import DiffMonitor from 'redux-devtools-diff-monitor';
 
 const store = ConfigureStore();
 
@@ -14,8 +15,8 @@ export default class Root extends Component {
           {() => <App />}
         </Provider>
         {/*<DebugPanel top right bottom>
-                  <DevTools store={store} monitor={LogMonitor} />
-                </DebugPanel>*/}
+          <DevTools store={store} monitor={DiffMonitor} />
+        </DebugPanel>*/}
       </div>
     );
   }
